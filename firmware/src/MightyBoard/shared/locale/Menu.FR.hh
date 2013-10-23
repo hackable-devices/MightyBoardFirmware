@@ -5,11 +5,11 @@
 #ifdef MODEL_REPLICATOR
   static PROGMEM unsigned char SPLASH1_SINGLE_MSG[] = "   La Replicator    ";
   static PROGMEM unsigned char SPLASH1_DUAL_MSG[] =   "   La Replicator    ";
-  static PROGMEM unsigned char SPLASH2_MSG[] =        "    ------------    ";
+  static PROGMEM unsigned char SPLASH2_MSG[] =        "   -- by CKAB --    ";
 #elif MODEL_REPLICATOR2
   static PROGMEM unsigned char SPLASH1_SINGLE_MSG[] = "  La Replicator 2   ";
   static PROGMEM unsigned char SPLASH1_DUAL_MSG[] =   "  La Replicator 2X  ";
-  static PROGMEM unsigned char SPLASH2_MSG[] =        "    ------------    ";
+  static PROGMEM unsigned char SPLASH2_MSG[] =        "   -- by CKAB --    ";
 #else
   static PROGMEM unsigned char SPLASH1_MSG[] =        "      Makerbot      ";
   static PROGMEM unsigned char SPLASH2_MSG[] =        "    ------------    ";
